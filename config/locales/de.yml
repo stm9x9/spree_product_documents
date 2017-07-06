@@ -1,5 +1,6 @@
 de:
   spree:
+    documents: Dokumente
     document: Dockment
     document_url: Dokument Name
     back_to_documents_list: Zurück zur Dokumentenliste
