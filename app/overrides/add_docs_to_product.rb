@@ -11,7 +11,7 @@ Deface::Override.new(
   <table class="table" style="font-size: small" data-hook="documents_table">
     <thead>
       <tr data-hook="documents_header">
-        <th colspan="2"><%= Spree.t(:document_url) %></th>
+        <th><%= Spree.t(:document_url) %></th>
         <% if @product.has_variants? %>
           <th><%= Spree::Variant.model_name.human %></th>
         <% end %>
