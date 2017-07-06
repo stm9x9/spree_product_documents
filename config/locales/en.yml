@@ -10,7 +10,7 @@ en:
         attachment: Document
   spree:
     document: Document
-    document_url: Document
+    document_url: Document name
     back_to_documents_list: Back to documents list
     no_documents_found: No documents found
     new_document: New document
