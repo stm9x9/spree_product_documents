@@ -1,7 +1,7 @@
 de:
   spree:
     document: Dockment
-    document_url: Dokument
+    document_url: Dokument Name
     back_to_documents_list: Zurück zur Dokumentenliste
     no_documents_found: Keine Dokumente gefunden
     new_document: Neues Dokument
