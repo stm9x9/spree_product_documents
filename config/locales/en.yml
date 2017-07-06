@@ -9,6 +9,7 @@ en:
         attachment_content_type: Document type
         attachment: Document
   spree:
+    documents: Documents
     document: Document
     document_url: Document name
     back_to_documents_list: Back to documents list
