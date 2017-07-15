@@ -1,7 +1,7 @@
 Deface::Override.new(
         :virtual_path => 'spree/products/show',
         :name=> 'add_docs_to_product',
-        :insert_after => '[data-hook="product_images"]',
+        :insert_after => '[data-hook="description"]',
         :text => '
 
 
