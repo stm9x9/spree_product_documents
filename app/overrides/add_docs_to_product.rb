@@ -8,7 +8,7 @@ Deface::Override.new(
 <% unless @product.documents.any? || @product.variant_documents.any? %>
 <% else %>
 
-<div id="product_documents">
+<div data-hook="product_documents">
 <h3 id="documents-title" class="product-section-title"><%= Spree.t(:documents) %></h3>
   <table class="table table-striped"  style="font-size: small" data-hook="documents_table">
     <thead>
