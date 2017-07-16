@@ -7,7 +7,9 @@ Deface::Override.new(
 
 <% unless @product.documents.any? || @product.variant_documents.any? %>
 <% else %>
-  <h3 id="documents-title" class="product-section-title"><%= Spree.t(:documents) %></h3>
+
+<div id="product_documents">
+<h3 id="documents-title" class="product-section-title"><%= Spree.t(:documents) %></h3>
   <table class="table table-striped"  style="font-size: small" data-hook="documents_table">
     <thead>
       <tr data-hook="documents_header">
@@ -39,6 +41,7 @@ Deface::Override.new(
       <% end %>
     </tbody>
  </table>
+</div>
 <% end %>
     '
         )
